@@ -9,8 +9,8 @@ Trained on 2018-2023, tested on 2024-2025 (544 games).
 
 | Target | Accuracy | AUC | Log loss |
 |---|---|---|---|
-| Home team wins | 0.616 | 0.677 | 0.64 |
-| Home team covers the spread | 0.5 | 0.51 | 0.696 |
+| Home team wins | 0.616 | 0.677 | 0.640 |
+| Home team covers the spread | 0.500 | 0.510 | 0.696 |
 
 ![coefficients](figures/coefficients.png)
 
