@@ -14,6 +14,10 @@ Trained on 2018-2023, tested on 2024-2025 544 games.
 
 ![coefficients](figures/coefficients.png)
 
+![coefficients](figures/coefficients.png)
+
+![calibration](figures/calibration.png)
+
 ## Approach
 
 **Data.** Play-by-play and schedule data from nflverse via `nflreadpy`,
