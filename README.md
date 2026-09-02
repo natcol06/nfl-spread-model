@@ -54,6 +54,19 @@ four public features fit with a linear model do not get there.
 The more useful framing is how much of the market's information four public
 stats can recover on their own.
 
+Accuracy tracks confidence closely, which suggests the probabilities carry
+real information rather than being incidental to the yes/no calls:
+
+| Model confidence | Accuracy | Games |
+|---|---|---|
+| 50-55% | 0.454 | 119 |
+| 55-60% | 0.534 | 103 |
+| 60-65% | 0.652 | 115 |
+| 65-70% | 0.720 | 82 |
+| 70%+ | 0.736 | 125 |
+
+On games it rates near a coin flip, the model is no better than guessing.
+
 ## Running it
 
     git clone https://github.com/natcol06/nfl-spread-model.git
