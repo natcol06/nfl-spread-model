@@ -5,12 +5,12 @@ logistic regression on eight seasons of play-by-play data.
 
 ## Results
 
-Trained on 2018-2023, tested on 2024-2025 ([N] games).
+Trained on 2018-2023, tested on 2024-2025 544 games.
 
 | Target | Accuracy | AUC | Log loss |
 |---|---|---|---|
-| Home team wins | [0.616] | [0.677] | [0.64] |
-| Home team covers the spread | [0.5] | [0.51] | [0.696] |
+| Home team wins | 0.616 | 0.677 | 0.64 |
+| Home team covers the spread | 0.5 | 0.51 | 0.696 |
 
 ![coefficients](figures/coefficients.png)
 
@@ -54,7 +54,7 @@ stats can recover on their own.
 
 ## Running it
 
-    git clone https://github.com/YOUR-USERNAME/nfl-spread-model.git
+    git clone https://github.com/natcol06/nfl-spread-model.git
     cd nfl-spread-model
     python -m venv .venv
     source .venv/Scripts/activate     # macOS/Linux: source .venv/bin/activate
