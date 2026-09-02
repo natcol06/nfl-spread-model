@@ -5,14 +5,12 @@ logistic regression on eight seasons of play-by-play data.
 
 ## Results
 
-Trained on 2018-2023, tested on 2024-2025 544 games.
+Trained on 2018-2023, tested on 2024-2025 (544 games).
 
 | Target | Accuracy | AUC | Log loss |
 |---|---|---|---|
 | Home team wins | 0.616 | 0.677 | 0.64 |
 | Home team covers the spread | 0.5 | 0.51 | 0.696 |
-
-![coefficients](figures/coefficients.png)
 
 ![coefficients](figures/coefficients.png)
 
@@ -66,7 +64,7 @@ stats can recover on their own.
     cd src
     python model.py
 
-First run downloads roughly [X] MB from nflverse and caches it to `data/`.
+First run downloads roughly 3.4 MB from nflverse and caches it to `data/`.
 
 ## Layout
 
