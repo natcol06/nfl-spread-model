@@ -86,10 +86,3 @@ First run downloads roughly 3.4 MB from nflverse and caches it to `data/`.
     src/model.py      train, evaluate, chart
     explore.ipynb     exploratory analysis
     figures/          generated charts
-
-## Next steps
-
-- Add an Elo rating to capture schedule strength, which raw EPA misses
-- Split offensive EPA into passing and rushing, since passing is more predictive
-- Compare predicted probabilities against moneyline-implied probabilities
-- Test whether gradient boosting beats logistic regression on a dataset this size
